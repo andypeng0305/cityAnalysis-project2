@@ -7,18 +7,19 @@
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",
     "moment": "^2.30.1",
+    "next": "^15.0.2",
     "react": "^18.3.1",
     "react-big-calendar": "^1.15.0",
     "react-calendar": "^5.1.0",
     "react-chartjs-2": "^5.2.0",
     "react-dom": "^18.3.1",
     "react-router-dom": "^6.27.0",
-    "react-scripts": "5.0.1",
     "web-vitals": "^2.1.4"
   },
   "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
+    "dev": "next dev",            // 新增這行
+    "build": "next build",        // 新增這行
+    "start": "next start",        // 新增這行
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
